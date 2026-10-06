@@ -1,12 +1,12 @@
- name: Build and Publish image to Docker Hub
+name: Build and Publish image to Docker Hub
 
 on:
   push:
     branches:
       - main
     paths:
-      - 'api/**'
-      - 'front-end-nextjs/**'
+      - "api/**"
+      - "front-end-nextjs/**"
 
 jobs:
   publish_images:
