@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - "api/**"
-      - "front-end-nextjs/**"
 
 jobs:
   publish_images:
